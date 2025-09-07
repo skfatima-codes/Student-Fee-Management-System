@@ -22,6 +22,15 @@ Built using **OOP principles** with `Student` class, JSON database, and separate
   - Automatically updated after every transaction  
 
 ---
+##  Project Structure  
+
+Student-Fee-Management-System/
+│── main.py # Main entry point
+│── auth.py # Handles login system
+│── database.py # Load & save JSON data
+│── student.py # Student class
+│── student.json # Stores student records
+│── README.md # Documentation
 
 ##  Future Plan For This Mini Project
 - ✅ Add default password generator for new students
