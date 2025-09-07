@@ -1,0 +1,18 @@
+{
+    "101": {
+        "name": "Ali",
+        "course": "Computer Science",
+        "total_fee": 50000,
+        "paid_fee": 22000,
+        "balance": 28000,
+        "password": "ali123"
+    },
+    "102": {
+        "name": "Fatima",
+        "course": "Software Engineering",
+        "total_fee": 60000,
+        "paid_fee": 20000,
+        "balance": 40000,
+        "password": "fatima123"
+    }
+}
