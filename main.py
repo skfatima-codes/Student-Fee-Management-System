@@ -1,4 +1,4 @@
-# main.py
+
 from student import Student
 import database
 import auth
@@ -19,7 +19,7 @@ def admin_menu(data):
             s = Student(student_id, name, course, total_fee)
             data[student_id] = s.to_dict()
             database.save_data(data)
-            print("✅ Student Added Successfully!")
+            print(" Student Added Successfully!")
 
         elif choice == "2":
             for sid, details in data.items():
@@ -30,7 +30,7 @@ def admin_menu(data):
 
 def student_menu(data, student_id):
     if student_id not in data:
-        print("❌ Student not found!")
+        print(" Student not found!")
         return
 
     while True:
@@ -47,7 +47,7 @@ def student_menu(data, student_id):
             data[student_id]['paid_fee'] += amount
             data[student_id]['balance'] -= amount
             database.save_data(data)
-            print("✅ Payment Successful!")
+            print(" Payment Successful!")
         elif choice == "3":
             break
 

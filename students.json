@@ -2,9 +2,9 @@
     "101": {
         "name": "Ali",
         "course": "Computer Science",
-        "total_fee": 50000,
-        "paid_fee": 22000,
-        "balance": 28000,
+        "total_fee": 89000,
+        "paid_fee": 0,
+        "balance": 89000,
         "password": "ali123"
     },
     "102": {
@@ -14,5 +14,29 @@
         "paid_fee": 20000,
         "balance": 40000,
         "password": "fatima123"
+    },
+    "103": {
+        "name": "Sarah",
+        "course": "Artificial Intelligence",
+        "total_fee": 90000,
+        "paid_fee": 0,
+        "balance": 90000,
+        "password": "sarah123"
+    },
+    "104": {
+        "name": "Osaja",
+        "course": "Cyber Security",
+        "total_fee": 87000,
+        "paid_fee": 0,
+        "balance": 87000,
+        "password": "osaja123"
+    },
+    "105": {
+        "name": "Farwa",
+        "course": "Data Science",
+        "total_fee": 76000,
+        "paid_fee": 0,
+        "balance": 76000,
+        "password": "farwa123"
     }
 }

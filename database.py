@@ -1,4 +1,4 @@
-# database.py
+
 import json
 
 FILE_NAME = "students.json"

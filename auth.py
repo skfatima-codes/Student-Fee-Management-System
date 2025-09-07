@@ -1,4 +1,4 @@
-# auth.py
+
 import database
 
 def login():
@@ -9,10 +9,10 @@ def login():
     if role == "admin":
         password = input("Enter admin password: ")
         if password == "adminknowswell123":
-            print("✅ Admin login successful!")
+            print(" Admin login successful!")
             return "admin"
         else:
-            print("❌ Wrong password!")
+            print(" Wrong password!")
             return None
 
     elif role == "student":
@@ -20,15 +20,15 @@ def login():
         if sid in data:
             password = input("Enter your password: ")
             if password == data[sid].get("password", ""):
-                print("✅ Student login successful!")
+                print("Student login successful!")
                 return ("student", sid)
             else:
-                print("❌ Invalid password")
+                print(" Invalid password")
                 return None
         else:
-            print("❌ Invalid Student ID")
+            print(" Invalid Student ID")
             return None
 
     else:
-        print("❌ Invalid role")
+        print(" Invalid role")
         return None
